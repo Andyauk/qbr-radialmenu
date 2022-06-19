@@ -1,6 +1,7 @@
 # CONVERTED SCRIPT
 https://github.com/qbcore-framework/qb-radialmenu
 
+Updated a bit by Andyuk, WIP
 
 # Converted by SagginChair#2225
 
