@@ -225,7 +225,7 @@ Config.MenuItems = {
                         title = 'Fill Bottle',
                         icon = 'prescription-bottle',
                         type = 'client',
-                        event = 'rprp_flask:fill',
+                        event = 'flask:fill',
                         shouldClose = true
                     }
 
@@ -236,7 +236,7 @@ Config.MenuItems = {
                 title = 'Crafting',
                 icon = 'screwdriver-wrench',
                 type = 'client',
-                event = 'zf_context:crafting',
+                event = 'crafting',
                 shouldClose = true
             }
         },
@@ -254,42 +254,42 @@ Config.VehicleDoors = {
             title = 'Drivers door',
             icon = 'car-side',
             type = 'client',
-            event = 'qb-radialmenu:client:openDoor',
+            event = 'qbr-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door4',
             title = 'Hood',
             icon = 'car',
             type = 'client',
-            event = 'qb-radialmenu:client:openDoor',
+            event = 'qbr-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door1',
             title = 'Passengers door',
             icon = 'car-side',
             type = 'client',
-            event = 'qb-radialmenu:client:openDoor',
+            event = 'qbr-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door3',
             title = 'Right rear',
             icon = 'car-side',
             type = 'client',
-            event = 'qb-radialmenu:client:openDoor',
+            event = 'qbr-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door5',
             title = 'Trunk',
             icon = 'car',
             type = 'client',
-            event = 'qb-radialmenu:client:openDoor',
+            event = 'qbr-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door2',
             title = 'Left rear',
             icon = 'car-side',
             type = 'client',
-            event = 'qb-radialmenu:client:openDoor',
+            event = 'qbr-radialmenu:client:openDoor',
             shouldClose = false
         }
     }
@@ -305,91 +305,91 @@ Config.VehicleExtras = {
             title = 'Extra 1',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra2',
             title = 'Extra 2',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra3',
             title = 'Extra 3',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra4',
             title = 'Extra 4',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra5',
             title = 'Extra 5',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra6',
             title = 'Extra 6',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra7',
             title = 'Extra 7',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra8',
             title = 'Extra 8',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra9',
             title = 'Extra 9',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra10',
             title = 'Extra 10',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra11',
             title = 'Extra 11',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra12',
             title = 'Extra 12',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }, {
             id = 'extra13',
             title = 'Extra 13',
             icon = 'box-open',
             type = 'client',
-            event = 'qb-radialmenu:client:setExtra',
+            event = 'qbr-radialmenu:client:setExtra',
             shouldClose = false
         }
     }
@@ -440,21 +440,21 @@ Config.JobInteractions = {
             title = 'Show/Hide Meter',
             icon = 'eye-slash',
             type = 'client',
-            event = 'qb-taxi:client:toggleMeter',
+            event = 'qbr-taxi:client:toggleMeter',
             shouldClose = false
         }, {
             id = 'togglemouse',
             title = 'Start/Stop Meter',
             icon = 'hourglass-start',
             type = 'client',
-            event = 'qb-taxi:client:enableMeter',
+            event = 'qbr-taxi:client:enableMeter',
             shouldClose = true
         }, {
             id = 'npc_mission',
             title = 'NPC Mission',
             icon = 'taxi',
             type = 'client',
-            event = 'qb-taxi:client:DoTaxiNpc',
+            event = 'qbr-taxi:client:DoTaxiNpc',
             shouldClose = true
         }
     },
@@ -471,7 +471,7 @@ Config.JobInteractions = {
             title = 'Tow vehicle',
             icon = 'truck-pickup',
             type = 'client',
-            event = 'qb-tow:client:TowVehicle',
+            event = 'qbr-tow:client:TowVehicle',
             shouldClose = true
         }
     },
@@ -481,7 +481,7 @@ Config.JobInteractions = {
             title = 'Tow vehicle',
             icon = 'truck-pickup',
             type = 'client',
-            event = 'qb-tow:client:TowVehicle',
+            event = 'qbr-tow:client:TowVehicle',
             shouldClose = true
         }
     },
@@ -536,7 +536,7 @@ Config.JobInteractions = {
             title = 'Toggle sell',
             icon = 'hotdog',
             type = 'client',
-            event = 'qb-hotdogjob:client:ToggleSell',
+            event = 'qbr-hotdogjob:client:ToggleSell',
             shouldClose = true
         }
     }
