@@ -76,49 +76,49 @@ Config.MenuItems = {
                         title = 'Hair',
                         icon = 'user',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleClothing',
+                        event = 'add-code-heree',
                         shouldClose = true
                     }, {
                         id = 'Ear',
                         title = 'Ear Piece',
                         icon = 'ear-deaf',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleProps',
+                        event = 'add-code-here',
                         shouldClose = true
                     }, {
                         id = 'Neck',
                         title = 'Neck',
                         icon = 'user-tie',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleClothing',
+                        event = 'add-code-here',
                         shouldClose = true
                     }, {
                         id = 'Top',
                         title = 'Top',
                         icon = 'shirt',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleClothing',
+                        event = 'add-code-here',
                         shouldClose = true
                     }, {
                         id = 'Shirt',
                         title = 'Shirt',
                         icon = 'shirt',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleClothing',
+                        event = 'add-code-heree',
                         shouldClose = true
                     }, {
                         id = 'Pants',
                         title = 'Pants',
                         icon = 'user',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleClothing',
+                        event = 'add-code-here',
                         shouldClose = true
                     }, {
                         id = 'Shoes',
                         title = 'Shoes',
                         icon = 'shoe-prints',
                         type = 'client',
-                        event = 'qbr-radialmenu:ToggleClothing',
+                        event = 'add-code-here',
                         shouldClose = true
                     }, {
                         id = 'meer',
@@ -130,63 +130,63 @@ Config.MenuItems = {
                                 title = 'Hat',
                                 icon = 'hat-cowboy-side',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleProps',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Glasses',
                                 title = 'Glasses',
                                 icon = 'glasses',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleProps',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Visor',
                                 title = 'Visor',
                                 icon = 'hat-cowboy-side',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleProps',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Mask',
                                 title = 'Mask',
                                 icon = 'masks-theater',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleClothing',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Vest',
                                 title = 'Vest',
                                 icon = 'vest',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleClothing',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Bag',
                                 title = 'Bag',
                                 icon = 'bag-shopping',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleClothing',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Bracelet',
                                 title = 'Bracelet',
                                 icon = 'user',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleProps',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Watch',
                                 title = 'Watch',
                                 icon = 'stopwatch',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleProps',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }, {
                                 id = 'Gloves',
                                 title = 'Gloves',
                                 icon = 'mitten',
                                 type = 'client',
-                                event = 'qbr-radialmenu:ToggleClothing',
+                                event = 'add-code-here',
                                 shouldClose = true
                             }
                         }
@@ -211,21 +211,21 @@ Config.MenuItems = {
                         title = 'Drink',
                         icon = 'hand-holding-droplet',
                         type = 'client',
-                        event = 'drink:menu',
+                        event = 'add-code-here',
                         shouldClose = true
                     },{
                         id = 'Wash',
                         title = 'Wash',
                         icon = 'hands-bubbles',
                         type = 'client',
-                        event = 'wash:menu',
+                        event = 'add-code-here',
                         shouldClose = true
                     },{
                         id = 'Fill',
                         title = 'Fill Bottle',
                         icon = 'prescription-bottle',
                         type = 'client',
-                        event = 'flask:fill',
+                        event = 'add-code-here',
                         shouldClose = true
                     }
 
@@ -236,7 +236,7 @@ Config.MenuItems = {
                 title = 'Crafting',
                 icon = 'screwdriver-wrench',
                 type = 'client',
-                event = 'crafting',
+                event = 'add-code-here',
                 shouldClose = true
             }
         },
@@ -434,57 +434,6 @@ Config.JobInteractions = {
             shouldClose = true
         }
     },
-    ["taxi"] = {
-        {
-            id = 'togglemeter',
-            title = 'Show/Hide Meter',
-            icon = 'eye-slash',
-            type = 'client',
-            event = 'qbr-taxi:client:toggleMeter',
-            shouldClose = false
-        }, {
-            id = 'togglemouse',
-            title = 'Start/Stop Meter',
-            icon = 'hourglass-start',
-            type = 'client',
-            event = 'qbr-taxi:client:enableMeter',
-            shouldClose = true
-        }, {
-            id = 'npc_mission',
-            title = 'NPC Mission',
-            icon = 'taxi',
-            type = 'client',
-            event = 'qbr-taxi:client:DoTaxiNpc',
-            shouldClose = true
-        }
-    },
-    ["tow"] = {
-        {
-            id = 'togglenpc',
-            title = 'Toggle NPC',
-            icon = 'toggle-on',
-            type = 'client',
-            event = 'jobs:client:ToggleNpc',
-            shouldClose = true
-        }, {
-            id = 'towvehicle',
-            title = 'Tow vehicle',
-            icon = 'truck-pickup',
-            type = 'client',
-            event = 'qbr-tow:client:TowVehicle',
-            shouldClose = true
-        }
-    },
-    ["mechanic"] = {
-        {
-            id = 'towvehicle',
-            title = 'Tow vehicle',
-            icon = 'truck-pickup',
-            type = 'client',
-            event = 'qbr-tow:client:TowVehicle',
-            shouldClose = true
-        }
-    },
     ["police"] = {
                 {
                     id = 'statuscheck',
@@ -530,16 +479,6 @@ Config.JobInteractions = {
                     shouldClose = true
                 }
     },
-    ["hotdog"] = {
-        {
-            id = 'togglesell',
-            title = 'Toggle sell',
-            icon = 'hotdog',
-            type = 'client',
-            event = 'qbr-hotdogjob:client:ToggleSell',
-            shouldClose = true
-        }
-    }
 }
 
 Config.TrunkClasses = {
