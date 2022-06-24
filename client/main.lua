@@ -140,7 +140,8 @@ end
 CreateThread(function()
     while true do
         Citizen.Wait(7)
-if IsControlJustPressed(0, 0x760A9C6F) then --G
+--if IsControlJustPressed(0, 0x760A9C6F) then --G
+if IsControlJustPressed(0, 0x35957F6C) then --F6  
         setRadialState(true, true)
         SetCursorLocation(0.5, 0.5)
         end
