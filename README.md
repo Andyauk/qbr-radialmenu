@@ -1,7 +1,7 @@
 # CONVERTED SCRIPT
 https://github.com/qbcore-framework/qb-radialmenu
 
-Updated by Andyuk, WIP
+Updated by Andyuk, -
 First Converted by SagginChair#2225
 
 To use PRESS F6
