@@ -9,13 +9,6 @@ Config.MenuItems = {
         icon = 'user',
         items = { 
                     {
-                        id = 'handcuff',
-                        title = 'Cuff',
-                        icon = 'user-lock',
-                        type = 'client',
-                        event = 'police:client:CuffPlayerSoft',
-                        shouldClose = true
-                    }, {
                         id = 'playerinvehicle',
                         title = 'Put In Vehicle',
                         icon = 'car-side',
@@ -200,45 +193,6 @@ Config.MenuItems = {
         title = 'World',
         icon = 'globe',
         items = {
-            {
-                id = 'Water',
-                title = 'Water',
-                icon = 'water',
-                items = {
-                    {
-
-                        id = 'Drink',
-                        title = 'Drink',
-                        icon = 'hand-holding-droplet',
-                        type = 'client',
-                        event = 'add-code-here',
-                        shouldClose = true
-                    },{
-                        id = 'Wash',
-                        title = 'Wash',
-                        icon = 'hands-bubbles',
-                        type = 'client',
-                        event = 'add-code-here',
-                        shouldClose = true
-                    },{
-                        id = 'Fill',
-                        title = 'Fill Bottle',
-                        icon = 'prescription-bottle',
-                        type = 'client',
-                        event = 'add-code-here',
-                        shouldClose = true
-                    }
-
-                },
-
-            },{
-                id = 'Crafting',
-                title = 'Crafting',
-                icon = 'screwdriver-wrench',
-                type = 'client',
-                event = 'add-code-here',
-                shouldClose = true
-            }
         },
 
     },
@@ -436,6 +390,13 @@ Config.JobInteractions = {
     },
     ["police"] = {
                 {
+                    id = 'handcuff',
+                    title = 'Cuff',
+                    icon = 'user-lock',
+                    type = 'client',
+                    event = 'police:client:CuffPlayerSoft',
+                    shouldClose = true
+                }, {                    
                     id = 'statuscheck',
                     title = 'Check Health Status',
                     icon = 'heart-pulse',
